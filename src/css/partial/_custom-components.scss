@@ -23,12 +23,12 @@
       left: 0;
       height: 3px;
       pointer-events: none;
-      background: $mediumgray;
+      background: gray;
       transition: all 400ms ease;
     }
     &.slick-active{
       &:after{
-        background: $secondary;
+        background: gray;
       }
     }
     button{

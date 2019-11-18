@@ -1,0 +1,21 @@
+.home-wallpaper{
+    position: relative;
+    height: 100vh;
+    background-image: url(../img/background-home.jpg);
+    background-size: cover;
+    background-position: bottom;
+    h2{
+        position: absolute;
+        top: 30%;
+        left: 180px;
+        font-size: 100px;
+        font-weight: 900;
+        color: white;
+    }
+    .waves{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+    }
+}

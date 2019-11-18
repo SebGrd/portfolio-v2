@@ -1,0 +1,34 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    padding: 15px 50px;
+    z-index: 5;
+    h1{
+        margin: 0;
+        font-weight: 700;
+        font-size: 38px;
+        color: $dark-text;
+    }
+    nav{
+        ul{
+            display: flex;
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            li{
+                &:first-child{
+                    margin-left: 0;
+                }
+                margin-left: 25px;
+                a{
+                    color: $dark-text;
+                }
+            }
+        }
+    }
+}
