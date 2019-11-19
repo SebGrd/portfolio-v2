@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Nunito", sans-serif;
   color: #1f1f1f;
@@ -115,46 +119,6 @@ body {
   opacity: 0;
 }
 
-.ac-line-bottom {
-  position: relative;
-  text-decoration: none;
-}
-
-.ac-line-bottom:before {
-  position: absolute;
-  content: '';
-  bottom: -1px;
-  right: 0;
-  left: 0;
-  height: 2px;
-  background: green;
-  -webkit-transform: scaleX(0);
-          transform: scaleX(0);
-  -webkit-transform-origin: left;
-          transform-origin: left;
-  -webkit-transition: all 200ms cubic-bezier(0.38, 0, 0.74, 0.99);
-  transition: all 200ms cubic-bezier(0.38, 0, 0.74, 0.99);
-}
-
-.ac-line-bottom:hover {
-  text-decoration: none;
-}
-
-.ac-line-bottom:hover:before {
-  -webkit-transform: scaleX(1);
-          transform: scaleX(1);
-  -webkit-transform-origin: right;
-          transform-origin: right;
-}
-
-.ac-line-bottom-light:before {
-  background: #ffffff;
-}
-
-.ac-line-bottom-dark:before {
-  background: #000000;
-}
-
 header {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -256,6 +220,81 @@ header nav ul li a:before {
 header nav ul li a:after {
   content: ']';
   right: -2px;
+}
+
+footer {
+  padding: 15px 50px;
+  background: #e4e4e4;
+}
+
+footer .social-networks a {
+  display: inline-block;
+  text-decoration: none;
+  margin-right: 15px;
+  -webkit-transition: all 150ms ease-in-out;
+  transition: all 150ms ease-in-out;
+}
+
+footer .social-networks a:last-child {
+  margin-right: 0;
+}
+
+footer .social-networks a:hover {
+  -webkit-transform: translateY(-4px);
+          transform: translateY(-4px);
+}
+
+footer .footer-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+footer .footer-links li {
+  margin-right: 20px;
+}
+
+footer .footer-links li:last-child {
+  margin-right: 0;
+}
+
+footer .footer-links li a {
+  color: #1f1f1f;
+}
+
+footer .reach-top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+}
+
+footer .reach-top a {
+  display: inline-block;
+  text-decoration: none;
+  -webkit-transition: all 150ms ease-in-out;
+  transition: all 150ms ease-in-out;
+}
+
+footer .reach-top a:hover {
+  -webkit-transform: translateY(-4px);
+          transform: translateY(-4px);
 }
 
 .home-wallpaper {
