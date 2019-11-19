@@ -125,8 +125,8 @@ header {
   z-index: 5;
   -webkit-box-shadow: 0 2px 4px transparent;
           box-shadow: 0 2px 4px transparent;
-  -webkit-transition: all 200ms ease-in-out;
-  transition: all 200ms ease-in-out;
+  -webkit-transition: all 400ms ease-in-out;
+  transition: all 400ms ease-in-out;
 }
 
 header.scrolled {
@@ -232,6 +232,10 @@ header nav ul li a:after {
   bottom: 0;
   left: 0;
   right: 0;
+}
+
+.home-section-separator {
+  padding: 60px 0;
 }
 
 .home-description .home-title {
