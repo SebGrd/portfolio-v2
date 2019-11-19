@@ -8,6 +8,20 @@ body {
   height: auto;
 }
 
+.btn {
+  display: inline-block;
+  padding: 8px 20px;
+  border-radius: 50px;
+  background: linear-gradient(45deg, #1334ab, #05dcff);
+  color: white;
+  font-weight: 600;
+}
+
+.btn:hover {
+  color: white;
+  text-decoration: none;
+}
+
 .slick-initialized .slick-slide {
   outline: none;
 }
