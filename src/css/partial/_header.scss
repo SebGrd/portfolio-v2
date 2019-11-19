@@ -8,6 +8,12 @@ header{
     left: 0;
     padding: 15px 50px;
     z-index: 5;
+    box-shadow: 0 2px 4px transparent;
+    transition: all 200ms ease-in-out;
+    &.scrolled{
+        background-color: white;
+        box-shadow: 0 2px 4px #8080803b;
+    }
     h1{
         margin: 0;
         a{

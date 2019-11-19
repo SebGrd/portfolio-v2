@@ -123,6 +123,16 @@ header {
   left: 0;
   padding: 15px 50px;
   z-index: 5;
+  -webkit-box-shadow: 0 2px 4px transparent;
+          box-shadow: 0 2px 4px transparent;
+  -webkit-transition: all 200ms ease-in-out;
+  transition: all 200ms ease-in-out;
+}
+
+header.scrolled {
+  background-color: white;
+  -webkit-box-shadow: 0 2px 4px #8080803b;
+          box-shadow: 0 2px 4px #8080803b;
 }
 
 header h1 {
