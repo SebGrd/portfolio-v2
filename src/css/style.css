@@ -8,6 +8,10 @@ body {
   height: auto;
 }
 
+.mb-m {
+  margin-bottom: 30px;
+}
+
 .btn {
   display: inline-block;
   padding: 8px 20px;
@@ -20,6 +24,50 @@ body {
 .btn:hover {
   color: white;
   text-decoration: none;
+}
+
+.colored-card {
+  padding: 20px;
+  background: linear-gradient(45deg, #1334ab, #05dcff);
+  -webkit-box-shadow: 3px 3px 3px #e1e1e1;
+          box-shadow: 3px 3px 3px #e1e1e1;
+  border-radius: 30px;
+  color: white;
+}
+
+.colored-card h3 {
+  font-size: 22px;
+  line-height: 1;
+}
+
+.colored-card p {
+  font-size: 16px;
+}
+
+.colored-card .colored-card_date {
+  font-weight: 700;
+  margin-bottom: 0;
+}
+
+.colored-card .btn {
+  background: white;
+  color: #1f1f1f;
+}
+
+.colored-card--blue {
+  background: linear-gradient(45deg, #1334ab, #05dcff);
+}
+
+.colored-card--purple {
+  background: linear-gradient(45deg, #532867, #e405ff);
+}
+
+.colored-card--yellow {
+  background: linear-gradient(45deg, #ff5900, #e6d503);
+}
+
+.colored-card--green {
+  background: linear-gradient(45deg, #00551c, #05ff52);
 }
 
 .slick-initialized .slick-slide {

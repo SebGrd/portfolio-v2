@@ -1,3 +1,10 @@
 $dark-text: #1f1f1f;
 
+$card-gradient:(
+    'blue': linear-gradient(45deg, #1334ab, #05dcff),
+    'purple': linear-gradient(45deg, #532867, #e405ff),
+    'yellow': linear-gradient(45deg, #ff5900, #e6d503),
+    'green': linear-gradient(45deg, #00551c, #05ff52)
+);
+
 $secondary: green;
