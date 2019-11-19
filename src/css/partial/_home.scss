@@ -1,6 +1,7 @@
 .home-wallpaper{
     position: relative;
     height: 100vh;
+    // background: linear-gradient(45deg, #1334ab, #05dcff); //SI PAS DE IMG
     background-image: url(../img/background-home.jpg);
     background-size: cover;
     background-position: bottom;
@@ -17,5 +18,14 @@
         bottom: 0;
         left: 0;
         right: 0;
+    }
+}
+
+.home-description{
+    .home-title{
+        font-size: 50px;
+    }
+    p{
+        font-size: 20px;
     }
 }
