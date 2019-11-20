@@ -341,4 +341,36 @@ footer .reach-top a:hover {
 .home-description p {
   font-size: 20px;
 }
+
+@media (max-width: 1199px) {
+  .home-wallpaper h2 {
+    left: 100px;
+  }
+}
+
+@media (max-width: 991px) {
+  .home-card-list-lg .colored-card {
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 767px) {
+  .home-card-list .colored-card {
+    margin-bottom: 30px;
+  }
+  footer .md-center {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  footer .md-mb {
+    margin-bottom: 15px;
+  }
+}
 /*# sourceMappingURL=style.css.map */
