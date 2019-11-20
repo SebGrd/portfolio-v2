@@ -76,5 +76,15 @@ header{
                 }
             }
         }
+        .close-menu{
+            background: transparent;
+            border: none;
+            display: none;
+        }
+    }
+    .open-menu{
+        background: transparent;
+        border: none;
+        display: none;
     }
 }
