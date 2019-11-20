@@ -4,12 +4,23 @@
   display: inline-block;
   padding: 8px 20px;
   border-radius: 50px;
-  background: linear-gradient(45deg, #1334ab, #05dcff);
+  background-image: linear-gradient(45deg, transparent, #05dcff);
+  background-color: #1334ab;
   color: white;
   font-weight: 600;
+  transition: all 150ms ease-in-out;
   &:hover{
     color: white;
     text-decoration: none;
+    background-color: #00899f;
+    border-radius: 15px;
+  }
+  &.btn--light{
+    background: white;
+    color: $dark-text;
+    &:hover{
+      background: #eeeeee;
+    }
   }
 }
 
@@ -30,10 +41,6 @@
   .colored-card_date{
     font-weight: 700;
     margin-bottom: 0;
-  }
-  .btn{
-    background: white;
-    color: $dark-text;
   }
   @each $gradient, $value in $card-gradient {
     &--#{$gradient}{
