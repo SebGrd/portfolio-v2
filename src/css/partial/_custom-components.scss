@@ -13,13 +13,14 @@
     color: white;
     text-decoration: none;
     background-color: #00899f;
-    border-radius: 15px;
+    box-shadow: 1px 1px 5px 0 #00899f;
   }
   &.btn--light{
     background: white;
     color: $dark-text;
     &:hover{
       background: #eeeeee;
+      box-shadow: 1px 1px 5px 0 #b4c3c5;
     }
   }
 }

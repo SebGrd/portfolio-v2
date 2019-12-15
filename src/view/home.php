@@ -39,7 +39,7 @@
                 <h3>BEP SEN (TR)</h3>
                 <p class="colored-card_date">2017</p>
                 <p>Lycée LaFayette - Fontaineroux</p>
-                <a href="#!" class="btn btn--light">Formation</a>
+                <a href="https://eduscol.education.fr/sti/formations/bep-systemes-electroniques-numeriques" target="_blank" class="btn btn--light">Formation</a>
             </div>
         </div>
         <div class="col-12 col-md-4">
@@ -47,15 +47,15 @@
                 <h3>BAC PRO SEN (EIE)</h3>
                 <p class="colored-card_date">2018</p>
                 <p>Lycée LaFayette Fontaineroux</p>
-                <a href="#!" class="btn btn--light">Formation</a>
+                <a href="https://eduscol.education.fr/sti/formations/bac-pro-systemes-electroniques-numeriques-sen" target="_blank" class="btn btn--light">Formation</a>
             </div>
         </div>
         <div class="col-12 col-md-4">
-            <div class="colored-card colored-card--yellow">
+            <div class="colored-card">
                 <h3>BTS SIO (SLAM)</h3>
                 <p class="colored-card_date">2020</p>
                 <p>UTEC - Avon</p>
-                <a href="#!" class="btn btn--light">Formation</a>
+                <a href="https://www.orientation.com/diplomes/bts-services-informatiques-aux-organisations-option-b-solutions-logicielles-et-applications-metiers.html" target="_blank" class="btn btn--light">Formation</a>
             </div>
         </div>
     </div>
@@ -74,11 +74,11 @@
                 professionnelles, notament 4 mois de stage et 2 ans d'alternance.</p>
             <div class="row home-card-list-lg mb-m">
                 <div class="col-12 col-lg-6">
-                    <div class="colored-card colored-card--green">
+                    <div class="colored-card">
                         <h3>Direction du Système d'Information</h3>
                         <p class="colored-card_date">3 mois - 2017/2018</p>
                         <p>Université Sorbonne - Paris 6</p>
-                        <a href="#!" class="btn btn--light">Université</a>
+                        <a href="https://www.sorbonne-universite.fr/" target="_blank" class="btn btn--light">Université</a>
                     </div>
                 </div>
                 <div class="col-12 col-lg-6">
@@ -86,7 +86,7 @@
                         <h3>Développeur Front-End / Intégrateur web</h3>
                         <p class="colored-card_date">2 ans - 2018/2020</p>
                         <p>Net.Com - Sens</p>
-                        <a href="#!" class="btn btn--light">Entreprise</a>
+                        <a href="https://www.net-com.fr/" target="_blank" class="btn btn--light">Entreprise</a>
                     </div>
                 </div>
             </div>
