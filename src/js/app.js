@@ -45,3 +45,12 @@ $(window).resize(() => { //REDIMENSIONNEMENT
         nav.css({"display":""});
     }
 });
+
+
+$(document).ready( () => {
+    //MAP SCHOOL
+    var mapSchool = L.map('map-school').setView([48.426081, 2.743533], 13);
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        maxZoom: 18,
+    }).addTo(mapSchool);
+});

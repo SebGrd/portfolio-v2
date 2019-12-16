@@ -15,7 +15,13 @@
           rel="stylesheet">
     <link rel="stylesheet" href="src/css/boostrap/bootstrap-reboot.min.css">
     <link rel="stylesheet" href="src/css/boostrap/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="src/lib/leaflet/leaflet.css">
     <link rel="stylesheet" href="src/css/style.css">
+
+    <script src="https://kit.fontawesome.com/683c5a95c2.js" crossorigin="anonymous"></script>
+    <script src="src/lib/jquery/jquery-3.4.1.min.js"></script>
+    <script src="src/lib/leaflet/leaflet.js"></script>
+    <script src="src/js/app.js"></script>
 </head>
 
 <body>

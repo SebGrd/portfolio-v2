@@ -65,9 +65,6 @@
         </div>
     </div>
 </footer>
-<script src="https://kit.fontawesome.com/683c5a95c2.js" crossorigin="anonymous"></script>
-<script src="src/lib/jquery/jquery-3.4.1.min.js"></script>
-<script src="src/js/app.js"></script>
 </body>
 
 </html>

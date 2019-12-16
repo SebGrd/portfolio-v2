@@ -31,6 +31,42 @@
   p, ul {
     font-size: 18px;
   }
+
+  ul{
+    list-style: none;
+    li{
+      position: relative;
+      margin-bottom: 15px;
+      &:before{
+        position: absolute;
+        left: -40px;
+        top: 11px;
+        width: 30px;
+        height: 6px;
+        background-image: linear-gradient(120deg, transparent, #1aa7ff);
+        background-color: #256cab;
+        content: '';
+      }
+    }
+  }
+
+  .divided-list{
+    display: flex;
+    flex-wrap: wrap;
+    li{
+      width: 50%;
+    }
+  }
+
+}
+
+.full-bg{
+  background: $light-gray;
+  padding: 30px 0;
+}
+
+#map-school{
+  height: 378px;
 }
 
 .info-list {
@@ -40,7 +76,7 @@
   flex-wrap: wrap;
 
   .info-list-item {
-    width: 49%; //
+    width: 32%; //
     margin: 2px; //
 
     display: flex;
@@ -61,6 +97,7 @@
     p{
       margin: 0;
       max-width: 230px;
+      line-height: 1;
     }
   }
 }

@@ -1,10 +1,6 @@
-html {
-  scroll-behavior: smooth;
-}
-
-body {
-  font-family: "Nunito", sans-serif;
-  color: #1f1f1f;
+.center {
+  display: block;
+  margin: 0 auto;
 }
 
 .img-resp {
@@ -12,20 +8,279 @@ body {
   height: auto;
 }
 
-.mb-m {
-  margin-bottom: 30px;
+.img-thumbnail {
+  padding: 2px;
+  border: 1px solid #e4e4e4;
+  border-radius: 3px;
 }
 
-.mt-m {
+.w-0 {
+  width: 0;
+}
+
+.w-25 {
+  width: 25%;
+}
+
+.w-50 {
+  width: 50%;
+}
+
+.w-75 {
+  width: 75%;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.my-xs {
+  padding: 8px 0;
+}
+
+.my-s {
+  padding: 15px 0;
+}
+
+.my-m {
+  padding: 30px 0;
+}
+
+.my-l {
+  padding: 60px 0;
+}
+
+.my-xl {
+  padding: 100px 0;
+}
+
+.mx-xs {
+  padding: 0 8px;
+}
+
+.mx-s {
+  padding: 0 15px;
+}
+
+.mx-m {
+  padding: 0 30px;
+}
+
+.mx-l {
+  padding: 0 60px;
+}
+
+.mx-xl {
+  padding: 0 100px;
+}
+
+mt-xs {
+  margin-top: 8px;
+}
+
+mr-xs {
+  margin-right: 8px;
+}
+
+mb-xs {
+  margin-bottom: 8px;
+}
+
+ml-xs {
+  margin-left: 8px;
+}
+
+mt-s {
+  margin-top: 15px;
+}
+
+mr-s {
+  margin-right: 15px;
+}
+
+mb-s {
+  margin-bottom: 15px;
+}
+
+ml-s {
+  margin-left: 15px;
+}
+
+mt-m {
   margin-top: 30px;
 }
 
-.mt-l {
+mr-m {
+  margin-right: 30px;
+}
+
+mb-m {
+  margin-bottom: 30px;
+}
+
+ml-m {
+  margin-left: 30px;
+}
+
+mt-l {
   margin-top: 60px;
+}
+
+mr-l {
+  margin-right: 60px;
+}
+
+mb-l {
+  margin-bottom: 60px;
+}
+
+ml-l {
+  margin-left: 60px;
+}
+
+mt-xl {
+  margin-top: 100px;
+}
+
+mr-xl {
+  margin-right: 100px;
+}
+
+mb-xl {
+  margin-bottom: 100px;
+}
+
+ml-xl {
+  margin-left: 100px;
+}
+
+.py-xs {
+  padding: 8px 0;
+}
+
+.py-s {
+  padding: 15px 0;
+}
+
+.py-m {
+  padding: 30px 0;
 }
 
 .py-l {
   padding: 60px 0;
+}
+
+.py-xl {
+  padding: 100px 0;
+}
+
+.px-xs {
+  padding: 0 8px;
+}
+
+.px-s {
+  padding: 0 15px;
+}
+
+.px-m {
+  padding: 0 30px;
+}
+
+.px-l {
+  padding: 0 60px;
+}
+
+.px-xl {
+  padding: 0 100px;
+}
+
+pt-xs {
+  padding-top: 8px;
+}
+
+pr-xs {
+  padding-right: 8px;
+}
+
+pb-xs {
+  padding-bottom: 8px;
+}
+
+pl-xs {
+  padding-left: 8px;
+}
+
+pt-s {
+  padding-top: 15px;
+}
+
+pr-s {
+  padding-right: 15px;
+}
+
+pb-s {
+  padding-bottom: 15px;
+}
+
+pl-s {
+  padding-left: 15px;
+}
+
+pt-m {
+  padding-top: 30px;
+}
+
+pr-m {
+  padding-right: 30px;
+}
+
+pb-m {
+  padding-bottom: 30px;
+}
+
+pl-m {
+  padding-left: 30px;
+}
+
+pt-l {
+  padding-top: 60px;
+}
+
+pr-l {
+  padding-right: 60px;
+}
+
+pb-l {
+  padding-bottom: 60px;
+}
+
+pl-l {
+  padding-left: 60px;
+}
+
+pt-xl {
+  padding-top: 100px;
+}
+
+pr-xl {
+  padding-right: 100px;
+}
+
+pb-xl {
+  padding-bottom: 100px;
+}
+
+pl-xl {
+  padding-left: 100px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Nunito", sans-serif;
+  color: #1f1f1f;
 }
 
 .btn {
@@ -327,6 +582,39 @@ footer .reach-top a:hover {
 .content p, .content ul {
   font-size: 18px;
 }
+.content ul {
+  list-style: none;
+}
+.content ul li {
+  position: relative;
+  margin-bottom: 15px;
+}
+.content ul li:before {
+  position: absolute;
+  left: -40px;
+  top: 11px;
+  width: 30px;
+  height: 6px;
+  background-image: linear-gradient(120deg, transparent, #1aa7ff);
+  background-color: #256cab;
+  content: "";
+}
+.content .divided-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.content .divided-list li {
+  width: 50%;
+}
+
+.full-bg {
+  background: #e4e4e4;
+  padding: 30px 0;
+}
+
+#map-school {
+  height: 378px;
+}
 
 .info-list {
   display: flex;
@@ -335,7 +623,7 @@ footer .reach-top a:hover {
   flex-wrap: wrap;
 }
 .info-list .info-list-item {
-  width: 49%;
+  width: 32%;
   margin: 2px;
   display: flex;
   flex-direction: column;
@@ -356,6 +644,7 @@ footer .reach-top a:hover {
 .info-list .info-list-item p {
   margin: 0;
   max-width: 230px;
+  line-height: 1;
 }
 
 .home-wallpaper {
