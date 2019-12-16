@@ -1,24 +1,32 @@
 /*jshint esversion: 6 */
 
-//HEADER BACKGROUND ON SCROLL
-$(window).scroll(() => {
-    var scroll = $(window).scrollTop();
-    var windowHeight = window.innerHeight;
-    if(windowHeight > 850){
-        if(scroll > 200){
-            $('header').addClass('scrolled');
-        } else {
-            $('header').removeClass('scrolled');
-        }
-    } else{
-        if(scroll > 100){
-            $('header').addClass('scrolled');
-        } else {
-            $('header').removeClass('scrolled');
-        }
+$(document).ready( () => {
+    if ($('.home-wallpaper').length){
+        //HEADER BACKGROUND ON SCROLL
+        $(window).scroll(() => {
+            var scroll = $(window).scrollTop();
+            var windowHeight = window.innerHeight;
+            if(windowHeight > 850){
+                if(scroll > 200){
+                    $('header').addClass('scrolled');
+                } else {
+                    $('header').removeClass('scrolled');
+                }
+            } else{
+                if(scroll > 100){
+                    $('header').addClass('scrolled');
+                } else {
+                    $('header').removeClass('scrolled');
+                }
+            }
+
+        });
+    } else {
+        $('header').addClass('scrolled');
     }
-    
 });
+
+
 
 //NAV MENU
 const nav = $('nav');

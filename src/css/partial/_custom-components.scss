@@ -50,6 +50,20 @@
   }
 }
 
+//COLORED ICONS
+.icon-colored{
+  background: -webkit-linear-gradient(45deg, #1334ab, #05dcff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  @each $gradient, $value in $card-gradient {
+    &--#{$gradient}{
+      background: $value;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+  }
+}
+
 
 //SLICK DOTS
 .slick-initialized{

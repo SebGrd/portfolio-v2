@@ -83,6 +83,56 @@ body {
 .colored-card--green {
   background: linear-gradient(45deg, #00551c, #05ff52);
 }
+.colored-card--red {
+  background: linear-gradient(45deg, #a50000, #ff5f5f);
+}
+.colored-card--grey {
+  background: linear-gradient(45deg, #3c3c3c, #919191);
+}
+.colored-card--light-blue {
+  background: linear-gradient(45deg, #13ab81, #05fff3);
+}
+
+.icon-colored {
+  background: -webkit-linear-gradient(45deg, #1334ab, #05dcff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.icon-colored--blue {
+  background: linear-gradient(45deg, #1334ab, #05dcff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.icon-colored--purple {
+  background: linear-gradient(45deg, #532867, #e405ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.icon-colored--yellow {
+  background: linear-gradient(45deg, #ff5900, #e6d503);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.icon-colored--green {
+  background: linear-gradient(45deg, #00551c, #05ff52);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.icon-colored--red {
+  background: linear-gradient(45deg, #a50000, #ff5f5f);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.icon-colored--grey {
+  background: linear-gradient(45deg, #3c3c3c, #919191);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.icon-colored--light-blue {
+  background: linear-gradient(45deg, #13ab81, #05fff3);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 
 .slick-initialized .slick-slide {
   outline: none;
@@ -251,6 +301,61 @@ footer .reach-top a {
 }
 footer .reach-top a:hover {
   transform: translateY(-4px);
+}
+
+.page-header {
+  position: relative;
+  padding-top: 86px;
+  margin-bottom: 40px;
+}
+.page-header h2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  padding: 15px 100px;
+  transform: translateX(-50%);
+  font-size: 50px;
+  color: white;
+  white-space: nowrap;
+  background: rgba(0, 0, 0, 0.58);
+  z-index: 1;
+}
+
+.content h2 {
+  font-size: 40px;
+}
+.content p, .content ul {
+  font-size: 18px;
+}
+
+.info-list {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+.info-list .info-list-item {
+  width: 49%;
+  margin: 2px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 50px;
+  align-items: center;
+  text-align: center;
+}
+.info-list .info-list-item i {
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+.info-list .info-list-item span {
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 1;
+}
+.info-list .info-list-item p {
+  margin: 0;
+  max-width: 230px;
 }
 
 .home-wallpaper {
