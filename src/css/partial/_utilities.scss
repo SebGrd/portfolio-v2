@@ -37,6 +37,7 @@ $width-percantage:(
 
 //MARGIN & PADDING
 $sizes-px:(
+        '0': 0,
         'xs': 8px,
         's': 15px,
         'm': 30px,
@@ -64,7 +65,7 @@ $direction-letter:(
 
 @each $margin, $value in $sizes-px{
   @each $direction, $side in $direction-letter{
-    m#{$direction}-#{$margin}{
+    .m#{$direction}-#{$margin}{
       margin-#{$side}: $value;
     }
   }
@@ -83,7 +84,7 @@ $direction-letter:(
 
 @each $margin, $value in $sizes-px{
   @each $direction, $side in $direction-letter{
-    p#{$direction}-#{$margin}{
+    .p#{$direction}-#{$margin}{
       padding-#{$side}: $value;
     }
   }

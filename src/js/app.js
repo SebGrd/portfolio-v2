@@ -49,8 +49,9 @@ $(window).resize(() => { //REDIMENSIONNEMENT
 
 $(document).ready( () => {
     //MAP SCHOOL
-    var mapSchool = L.map('map-school').setView([48.426081, 2.743533], 13);
+    var mapSchool = L.map('map-school').setView([48.426081, 2.743533], 11);
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-        maxZoom: 18,
+        maxZoom: 19,
     }).addTo(mapSchool);
+    L.marker([48.426085, 2.743512]).addTo(mapSchool)
 });

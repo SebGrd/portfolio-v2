@@ -1,6 +1,6 @@
 <div class="page-header">
     <div class="page-header_image">
-        <img src="src/img/utec-avon-fontainebleau" alt="">
+        <img src="src/img/utec-avon-fontainebleau" alt="utec" class="img-resp center">
     </div>
     <div class="container">
         <h2>Centre de Formation d'Apprentis - UTEC</h2>
@@ -22,7 +22,7 @@
                 </ul>
             </div>
             <div class="col-12">
-                <div class="info-list">
+                <div class="info-list my-l">
                     <div class="info-list-item" id="graduated">
                         <i class="fas fa-user-graduate icon-colored icon-colored--purple"></i>
                         <span>2000</span>
@@ -87,17 +87,19 @@
     </div>
 </section>
 
-<div class="container">
-    <div class="row my-xl">
-        <div class="col-5">
-            <img src="src/img/carte.jpg" alt="" class="img-resp img-thumbnail">
-        </div>
-        <div class="col-7">
-            <div id="map-school" class="mr-l"></div>
-            <div class="d-flex align-items-center justify-content-between">
-                <p>Avon-Fontainebleau<br>1 rue du Port de Valvins<br>77215 Avon cedex<br>tél. : 01 60 72 74 00</p>
-                <img src="src/img/logo.png" alt="" class="img-fluid">
+<section class="school-info">
+    <div class="container">
+        <div class="row my-xl">
+            <div class="col-12 col-lg-5">
+                <img src="src/img/carte.jpg" alt="" class="img-resp img-thumbnail center plan-school">
+            </div>
+            <div class="col-12 col-lg-7">
+                <div id="map-school" class=""></div>
+                <div class="school-contact-info my-s">
+                    <p><b>Avon-Fontainebleau<br>1 rue du Port de Valvins<br>77215 Avon cedex</b><br>tél. : <b>01 60 72 74 00</b></p>
+                    <img src="src/img/logo.png" alt="" class="img-resp">
+                </div>
             </div>
         </div>
     </div>
-</div>
+</section>

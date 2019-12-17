@@ -34,6 +34,10 @@
   width: 100%;
 }
 
+.my-0 {
+  padding: 0 0;
+}
+
 .my-xs {
   padding: 8px 0;
 }
@@ -52,6 +56,10 @@
 
 .my-xl {
   padding: 100px 0;
+}
+
+.mx-0 {
+  padding: 0 0;
 }
 
 .mx-xs {
@@ -74,84 +82,104 @@
   padding: 0 100px;
 }
 
-mt-xs {
+.mt-0 {
+  margin-top: 0;
+}
+
+.mr-0 {
+  margin-right: 0;
+}
+
+.mb-0 {
+  margin-bottom: 0;
+}
+
+.ml-0 {
+  margin-left: 0;
+}
+
+.mt-xs {
   margin-top: 8px;
 }
 
-mr-xs {
+.mr-xs {
   margin-right: 8px;
 }
 
-mb-xs {
+.mb-xs {
   margin-bottom: 8px;
 }
 
-ml-xs {
+.ml-xs {
   margin-left: 8px;
 }
 
-mt-s {
+.mt-s {
   margin-top: 15px;
 }
 
-mr-s {
+.mr-s {
   margin-right: 15px;
 }
 
-mb-s {
+.mb-s {
   margin-bottom: 15px;
 }
 
-ml-s {
+.ml-s {
   margin-left: 15px;
 }
 
-mt-m {
+.mt-m {
   margin-top: 30px;
 }
 
-mr-m {
+.mr-m {
   margin-right: 30px;
 }
 
-mb-m {
+.mb-m {
   margin-bottom: 30px;
 }
 
-ml-m {
+.ml-m {
   margin-left: 30px;
 }
 
-mt-l {
+.mt-l {
   margin-top: 60px;
 }
 
-mr-l {
+.mr-l {
   margin-right: 60px;
 }
 
-mb-l {
+.mb-l {
   margin-bottom: 60px;
 }
 
-ml-l {
+.ml-l {
   margin-left: 60px;
 }
 
-mt-xl {
+.mt-xl {
   margin-top: 100px;
 }
 
-mr-xl {
+.mr-xl {
   margin-right: 100px;
 }
 
-mb-xl {
+.mb-xl {
   margin-bottom: 100px;
 }
 
-ml-xl {
+.ml-xl {
   margin-left: 100px;
+}
+
+.py-0 {
+  padding: 0 0;
 }
 
 .py-xs {
@@ -174,6 +202,10 @@ ml-xl {
   padding: 100px 0;
 }
 
+.px-0 {
+  padding: 0 0;
+}
+
 .px-xs {
   padding: 0 8px;
 }
@@ -194,83 +226,99 @@ ml-xl {
   padding: 0 100px;
 }
 
-pt-xs {
+.pt-0 {
+  padding-top: 0;
+}
+
+.pr-0 {
+  padding-right: 0;
+}
+
+.pb-0 {
+  padding-bottom: 0;
+}
+
+.pl-0 {
+  padding-left: 0;
+}
+
+.pt-xs {
   padding-top: 8px;
 }
 
-pr-xs {
+.pr-xs {
   padding-right: 8px;
 }
 
-pb-xs {
+.pb-xs {
   padding-bottom: 8px;
 }
 
-pl-xs {
+.pl-xs {
   padding-left: 8px;
 }
 
-pt-s {
+.pt-s {
   padding-top: 15px;
 }
 
-pr-s {
+.pr-s {
   padding-right: 15px;
 }
 
-pb-s {
+.pb-s {
   padding-bottom: 15px;
 }
 
-pl-s {
+.pl-s {
   padding-left: 15px;
 }
 
-pt-m {
+.pt-m {
   padding-top: 30px;
 }
 
-pr-m {
+.pr-m {
   padding-right: 30px;
 }
 
-pb-m {
+.pb-m {
   padding-bottom: 30px;
 }
 
-pl-m {
+.pl-m {
   padding-left: 30px;
 }
 
-pt-l {
+.pt-l {
   padding-top: 60px;
 }
 
-pr-l {
+.pr-l {
   padding-right: 60px;
 }
 
-pb-l {
+.pb-l {
   padding-bottom: 60px;
 }
 
-pl-l {
+.pl-l {
   padding-left: 60px;
 }
 
-pt-xl {
+.pt-xl {
   padding-top: 100px;
 }
 
-pr-xl {
+.pr-xl {
   padding-right: 100px;
 }
 
-pb-xl {
+.pb-xl {
   padding-bottom: 100px;
 }
 
-pl-xl {
+.pl-xl {
   padding-left: 100px;
 }
 
@@ -562,15 +610,17 @@ footer .reach-top a:hover {
   position: relative;
   padding-top: 86px;
   margin-bottom: 40px;
+  transition: all 400ms;
 }
 .page-header h2 {
   position: absolute;
   top: 50%;
-  left: 50%;
-  padding: 15px 100px;
-  transform: translateX(-50%);
+  right: 0;
+  left: 0;
+  padding: 15px;
   font-size: 50px;
   color: white;
+  text-align: center;
   white-space: nowrap;
   background: rgba(0, 0, 0, 0.58);
   z-index: 1;
@@ -584,17 +634,19 @@ footer .reach-top a:hover {
 }
 .content ul {
   list-style: none;
+  padding-left: 0;
 }
 .content ul li {
   position: relative;
+  padding-left: 40px;
   margin-bottom: 15px;
 }
 .content ul li:before {
   position: absolute;
-  left: -40px;
+  left: 8px;
   top: 11px;
-  width: 30px;
-  height: 6px;
+  width: 22px;
+  height: 5px;
   background-image: linear-gradient(120deg, transparent, #1aa7ff);
   background-color: #256cab;
   content: "";
@@ -609,11 +661,19 @@ footer .reach-top a:hover {
 
 .full-bg {
   background: #e4e4e4;
-  padding: 30px 0;
+  padding: 50px 0;
 }
 
-#map-school {
+.school-info #map-school {
   height: 378px;
+}
+.school-info .school-contact-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.school-info .school-contact-info p {
+  margin-bottom: 0;
 }
 
 .info-list {
@@ -647,6 +707,88 @@ footer .reach-top a:hover {
   line-height: 1;
 }
 
+@media (max-width: 1199px) {
+  .page-header h2 {
+    font-size: 34px;
+    white-space: pre-wrap;
+  }
+}
+@media (max-width: 991px) {
+  .page-header .page-header_image {
+    overflow: hidden;
+  }
+  .page-header .page-header_image img {
+    height: 200px;
+    max-width: none;
+  }
+  .page-header h2 {
+    transform: translateY(-25%);
+  }
+
+  .school-info .plan-school {
+    margin-bottom: 30px;
+  }
+}
+@media (max-width: 767px) {
+  .content h2 {
+    font-size: 22px;
+  }
+  .content p, .content ul {
+    font-size: 16px;
+  }
+  .content .divided-list li {
+    width: 100%;
+  }
+
+  .info-list .info-list-item {
+    width: 49%;
+    margin: 2px;
+    margin-bottom: 50px;
+  }
+}
+@media (max-width: 575px) {
+  .page-header {
+    padding-top: 36px;
+  }
+  .page-header .page-header_image {
+    overflow: hidden;
+  }
+  .page-header .page-header_image img {
+    height: 200px;
+    max-width: none;
+  }
+  .page-header h2 {
+    font-size: 24px;
+  }
+
+  .info-list .info-list-item {
+    width: 100%;
+  }
+  .info-list .info-list-item i {
+    font-size: 50px;
+    margin-bottom: 20px;
+  }
+  .info-list .info-list-item span {
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 1;
+  }
+  .info-list .info-list-item p {
+    margin: 0;
+    max-width: 230px;
+    line-height: 1;
+  }
+
+  .school-info #map-school {
+    height: 200px;
+  }
+  .school-info .school-contact-info {
+    flex-direction: column;
+  }
+  .school-info .school-contact-info p {
+    margin-bottom: 30px;
+  }
+}
 .home-wallpaper {
   position: relative;
   height: 100vh;
