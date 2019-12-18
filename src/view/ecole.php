@@ -1,6 +1,6 @@
 <div class="page-header">
     <div class="page-header_image">
-        <img src="src/img/utec-avon-fontainebleau" alt="utec" class="img-resp center">
+        <img src="src/img/utec-avon-fontainebleau.jpg" alt="utec" class="img-resp center">
     </div>
     <div class="container">
         <h2>Centre de Formation d'Apprentis - UTEC</h2>
@@ -87,15 +87,15 @@
     </div>
 </section>
 
-<section class="school-info">
+<section class="page-footer">
     <div class="container">
         <div class="row my-xl">
             <div class="col-12 col-lg-5">
-                <img src="src/img/carte.jpg" alt="" class="img-resp img-thumbnail center plan-school">
+                <img src="src/img/carte.jpg" alt="" class="img-resp img-thumbnail center" id="plan-school">
             </div>
             <div class="col-12 col-lg-7">
-                <div id="map-school" class=""></div>
-                <div class="school-contact-info my-s">
+                <div id="map-school" class="page-footer_map"></div>
+                <div class="page-footer_info my-s">
                     <p><b>Avon-Fontainebleau<br>1 rue du Port de Valvins<br>77215 Avon cedex</b><br>tél. : <b>01 60 72 74 00</b></p>
                     <img src="src/img/logo.png" alt="" class="img-resp">
                 </div>

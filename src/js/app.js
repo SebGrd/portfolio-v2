@@ -49,9 +49,20 @@ $(window).resize(() => { //REDIMENSIONNEMENT
 
 $(document).ready( () => {
     //MAP SCHOOL
-    var mapSchool = L.map('map-school').setView([48.426081, 2.743533], 11);
-    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-        maxZoom: 19,
-    }).addTo(mapSchool);
-    L.marker([48.426085, 2.743512]).addTo(mapSchool)
+    if ($('#map-school').length){
+        var mapSchool = L.map('map-school').setView([48.426081, 2.743533], 11);
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            maxZoom: 19,
+        }).addTo(mapSchool);
+        L.marker([48.426085, 2.743512]).addTo(mapSchool)
+    }
+
+    //MAP COMPANY
+    if ($('#map-company').length){
+        var mapCompany = L.map('map-company').setView([48.213988, 3.277974], 11);
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            maxZoom: 19,
+        }).addTo(mapCompany);
+        L.marker([48.213988, 3.277974]).addTo(mapCompany)
+    }
 });

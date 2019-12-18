@@ -70,16 +70,20 @@
   padding: 50px 0;
 }
 
-.school-info{
-  #map-school{
+.page-footer{
+  .page-footer_map{
     height: 378px;
+    z-index: 1;
   }
-  .school-contact-info{
+  .page-footer_info{
     display: flex;
     align-items: center;
     justify-content: space-between;
     p{
       margin-bottom: 0;
+    }
+    #logo-nc{
+      width: 180px;
     }
   }
 }
@@ -87,7 +91,7 @@
 .info-list {
   display: flex;
   align-items: flex-start;
-  justify-content: flex-start;
+  justify-content: center;
   flex-wrap: wrap;
 
   .info-list-item {
@@ -147,8 +151,8 @@
     }
   }
 
-  .school-info{
-    .plan-school{
+  .page-footer{
+    #plan-school{
       margin-bottom: 30px;
     }
   }
@@ -221,11 +225,11 @@
     }
   }
 
-  .school-info{
-    #map-school{
+  .page-footer{
+    .page-footer_map{
       height: 200px;
     }
-    .school-contact-info{
+    .page-footer_info{
       flex-direction: column;
       p{
         margin-bottom: 30px;
