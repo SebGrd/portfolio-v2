@@ -29,7 +29,7 @@ $routes = [
     ],
     'veille' => [
         'url' => ['veille', 'veilles'],
-        'path' => 'src/view/veille.php'
+        'path' => 'src/controller/veille.php'
     ],
     'contact' => [
         'url' => ['contact'],

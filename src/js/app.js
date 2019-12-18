@@ -65,4 +65,22 @@ $(document).ready( () => {
         }).addTo(mapCompany);
         L.marker([48.213988, 3.277974]).addTo(mapCompany)
     }
+
+    //VEILLE TECH/JUR
+    if ($('.veille-it').length && $('.veille-jur').length){
+        veilleIT = $('.veille-it');
+        veilleJUR = $('.veille-jur');
+        veilleJUR.hide();
+        veilleIT.hide();
+
+        $('#btnVeilleIT').click( () => {
+            veilleJUR.hide();
+           veilleIT.fadeIn();
+        });
+        $('#btnVeilleJUR').click( () => {
+            veilleIT.hide();
+            veilleJUR.fadeIn();
+        });
+    }
+
 });

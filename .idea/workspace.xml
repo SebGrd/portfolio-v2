@@ -2,16 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5d885164-f27a-42df-b5ae-62a83b9565ec" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/controller/veille.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/bg-veille.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/partial/_custom-components.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/partial/_custom-components.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/css/partial/_page.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/partial/_page.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/style.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/bg-netcom.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/bg-netcom.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/logo-netcom.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/logo-netcom.jpeg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/ecole.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/ecole.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/entreprise.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/entreprise.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/veille.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/veille.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +77,7 @@
       <workItem from="1576586325157" duration="4849000" />
       <workItem from="1576666694603" duration="5978000" />
       <workItem from="1576683065666" duration="36000" />
-      <workItem from="1576683121278" duration="2523000" />
+      <workItem from="1576683121278" duration="15820000" />
     </task>
     <servers />
   </component>
@@ -93,9 +93,21 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="795" y="442" key="NewPhpFileDialog/-1080.-470.1080.1880/1920.-6.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1576687280021" />
+    <state width="498" height="446" key="SwitcherDM" timestamp="1576702866210">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="498" height="446" key="SwitcherDM/-1080.-470.1080.1880/1920.-6.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1576702866210" />
     <state x="655" y="342" key="com.intellij.ide.util.TipDialog" timestamp="1576683161206">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="655" y="342" key="com.intellij.ide.util.TipDialog/-1080.-470.1080.1880/1920.-6.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1576683161206" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1576688382906">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" key="run.anything.popup/-1080.-470.1080.1880/1920.-6.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1576688382906" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1576694649750">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/-1080.-470.1080.1880/1920.-6.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1576694649750" />
   </component>
 </project>
