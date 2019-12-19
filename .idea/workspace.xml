@@ -2,14 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5d885164-f27a-42df-b5ae-62a83b9565ec" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/projets.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/undraw_JavaScript_frameworks_8qpc.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/undraw_design_tools_42tf.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/undraw_developer_activity_bv83.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/undraw_programming_2svr.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/undraw_static_assets_rpm6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/undraw_version_control_9bpv.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/competences.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/competences.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/partial/_custom-components.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/partial/_custom-components.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/style.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/bg-veille.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/projets.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/projets.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/veille.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/veille.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +21,13 @@
     <execution>
       <executable />
     </execution>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTTP Request" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -45,6 +53,88 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\wamp64\www\portfolio-v2\src" />
     </key>
+  </component>
+  <component name="RestClientSettings">
+    <option name="REQUEST_HISTORY">
+      <list>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://httpbin.org/anything" />
+          <option name="urlPath" value="" />
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="id" />
+                <option name="value" value="c5bba9c5-70ee-42da-9fe3-2e6e87c9f266" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="ts" />
+                <option name="value" value="1576713953" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://httpbin.org/status/301" />
+          <option name="urlPath" value="" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="https://httpbin.org/get" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="show_env" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="https://httpbin.org/ip" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="All in get-requests" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="jar://$APPLICATION_HOME_DIR$/plugins/restClient/lib/restClient.jar!/com/intellij/ws/rest/client/requests/collection/get-requests.http">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="HTTP Request.All in get-requests" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -75,7 +165,7 @@
       <workItem from="1576586325157" duration="4849000" />
       <workItem from="1576666694603" duration="5978000" />
       <workItem from="1576683065666" duration="36000" />
-      <workItem from="1576683121278" duration="20217000" />
+      <workItem from="1576683121278" duration="25550000" />
     </task>
     <servers />
   </component>
@@ -87,6 +177,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="640" y="247" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/-1080.-470.1080.1880/1920.-6.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1576683094116" />
+    <state x="727" y="386" key="#com.intellij.ws.actions.HttpClientConvertFromCurlDialog" timestamp="1576713937127">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="727" y="386" key="#com.intellij.ws.actions.HttpClientConvertFromCurlDialog/-1080.-470.1080.1880/1920.-6.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1576713937127" />
+    <state width="1877" height="280" key="GridCell.Tab.0.bottom" timestamp="1576714096848">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="280" key="GridCell.Tab.0.bottom/-1080.-470.1080.1880/1920.-6.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1576714096848" />
+    <state width="1877" height="280" key="GridCell.Tab.0.center" timestamp="1576714096848">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="280" key="GridCell.Tab.0.center/-1080.-470.1080.1880/1920.-6.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1576714096848" />
+    <state width="1877" height="280" key="GridCell.Tab.0.left" timestamp="1576714096847">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="280" key="GridCell.Tab.0.left/-1080.-470.1080.1880/1920.-6.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1576714096847" />
+    <state width="1877" height="280" key="GridCell.Tab.0.right" timestamp="1576714096848">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="280" key="GridCell.Tab.0.right/-1080.-470.1080.1880/1920.-6.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1576714096848" />
     <state x="795" y="442" key="NewPhpFileDialog" timestamp="1576687280021">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

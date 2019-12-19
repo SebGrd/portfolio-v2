@@ -400,6 +400,10 @@ body {
   box-shadow: 1px 1px 5px 0 #b4c3c5;
 }
 
+.disabled {
+  cursor: not-allowed;
+}
+
 .colored-card, .article-card {
   padding: 20px;
   background: linear-gradient(45deg, #1334ab, #05dcff);
@@ -463,6 +467,7 @@ body {
   color: #1f1f1f;
   font-weight: 600;
   border-top-right-radius: 6px;
+  box-shadow: 0 0 6px -2px #8e939685;
 }
 .article-card p {
   line-height: 1;
@@ -507,6 +512,34 @@ body {
   background: linear-gradient(45deg, #13ab81, #05fff3);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+.pills {
+  background: -webkit-linear-gradient(45deg, #1334ab, #05dcff);
+  border-radius: 20px;
+  padding: 1px 10px;
+  font-weight: 600;
+}
+.pills--blue {
+  background: linear-gradient(45deg, #1334ab, #05dcff);
+}
+.pills--purple {
+  background: linear-gradient(45deg, #532867, #e405ff);
+}
+.pills--yellow {
+  background: linear-gradient(45deg, #ff5900, #e6d503);
+}
+.pills--green {
+  background: linear-gradient(45deg, #00551c, #05ff52);
+}
+.pills--red {
+  background: linear-gradient(45deg, #a50000, #ff5f5f);
+}
+.pills--grey {
+  background: linear-gradient(45deg, #3c3c3c, #919191);
+}
+.pills--light-blue {
+  background: linear-gradient(45deg, #13ab81, #05fff3);
 }
 
 .slick-initialized .slick-slide {

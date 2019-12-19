@@ -1,6 +1,6 @@
 <div class="page-header">
     <div class="page-header_image">
-        <img src="src/img/bg-veille.png" alt="utec" class="img-resp center">
+        <img src="src/img/bg-veilles.png" alt="utec" class="img-resp center">
     </div>
     <div class="container">
         <h2>Veille</h2>
@@ -38,9 +38,9 @@
                                 <?php $count = 0; ?>
                                 <?php foreach ($item->category as $key => $category): ?>
                                     <?php if ($count === 0): ?>
-                                        <?= $category ?>
+                                        <?= '<small>'.$category.'</small>' ?>
                                     <?php else: ?>
-                                        <?= ' | ' . $category ?>
+                                        <?= ' | <small>' . $category.'</small>' ?>
                                     <?php endif; ?>
                                     <?php $count++; ?>
                                 <?php endforeach; ?>
@@ -76,20 +76,6 @@
                 </div>
             <?php endforeach; ?>
         </div>
-        <h3>RSS Feed info :</h3>
-        <h4>Informatique</h4>
-        <img src="<?= $feedIT->channel->image->url ?>" alt="<?= $feedIT->channel->image->title ?>">
-        <ul>
-            <li><?= $feedIT->channel->title ?></li>
-            <li><?= $feedIT->channel->link ?></li>
-            <li><?= $feedIT->channel->description ?></li>
-        </ul>
-        <h4>Juridique</h4>
-        <ul>
-            <li><?= $feedJUR->channel->title ?></li>
-            <li><?= $feedJUR->channel->link ?></li>
-            <li><?= $feedJUR->channel->description ?></li>
-        </ul>
     </div>
 </section>
 
