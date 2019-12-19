@@ -1,6 +1,29 @@
 /*jshint esversion: 6 */
 
+
+
+
 $(document).ready( () => {
+
+    //NAV MENU
+    const nav = $('nav');
+    $('.open-menu').click(() => { //OUVERTURE
+        nav.css("display", "flex").hide().fadeIn();
+        nav.addClass('active');
+    });
+    $('.close-menu').click(() => { //FERMETURE
+        nav.removeClass('active');
+        nav.fadeOut();
+
+    });
+    $(window).resize(() => { //REDIMENSIONNEMENT
+        if(window.innerWidth > 1200){
+            nav.removeClass('active');
+            nav.css({"display":""});
+        }
+    });
+
+    //HEADER PAGES INTERNE
     if ($('.home-wallpaper').length){
         //HEADER BACKGROUND ON SCROLL
         $(window).scroll(() => {
@@ -24,30 +47,8 @@ $(document).ready( () => {
     } else {
         $('header').addClass('scrolled');
     }
-});
-
-
-
-//NAV MENU
-const nav = $('nav');
-$('.open-menu').click(() => { //OUVERTURE
-    nav.css("display", "flex").hide().fadeIn();
-    nav.addClass('active');
-});
-$('.close-menu').click(() => { //FERMETURE
-    nav.removeClass('active');
-    nav.fadeOut();
     
-});
-$(window).resize(() => { //REDIMENSIONNEMENT
-    if(window.innerWidth > 1200){
-        nav.removeClass('active');
-        nav.css({"display":""});
-    }
-});
 
-
-$(document).ready( () => {
     //MAP SCHOOL
     if ($('#map-school').length){
         var mapSchool = L.map('map-school').setView([48.426081, 2.743533], 11);

@@ -20,7 +20,7 @@
             <p>Je suis salarié alternant en tant qu'intégrateur web chez
                 Net.Com, agence de développement
                 web.</p>
-            <a href="#!" class="btn">Mon CV</a>
+            <a href="CV-Sebastien-Gaudard.pdf" target="_blank" class="btn">Mon CV</a>
         </div>
         <div class="col-12 col-md-5">
             <img src="src/img/code-page.png" alt="code-page" class="img-resp">
@@ -90,7 +90,7 @@
                     </div>
                 </div>
             </div>
-            <a href="#" class="btn">Mon CV</a>
+            <a href="CV-Sebastien-Gaudard.pdf" target="_blank" class="btn">Mon CV</a>
         </div>
     </div>
 </section>
